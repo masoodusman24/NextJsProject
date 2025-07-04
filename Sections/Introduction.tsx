@@ -23,7 +23,7 @@ export default function Introduction() {
     });
   }, [wordIndex]);
   return (
-    <div className="py-24 lg:py-48">
+    <div id="Introduction" className="py-24 lg:py-48 min-h-screen pt-[130px]">
       <div className="container">
         <div className="sticky top-20 md:top-28 lg:top-40">
           <div className="flex justify-center">

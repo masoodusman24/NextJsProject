@@ -44,7 +44,7 @@ export default function Hero() {
     ]);
   }, []);
   return (
-    <div className="py-24 overflow-x-clip">
+    <div id="home" className="py-24 overflow-x-clip">
       <div className="container relative">
         <motion.div
           ref={leftDesignScope}
